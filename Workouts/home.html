@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #333;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 16px;
+            padding: 16px;
+        }
+        .navbar{
+    height: 100px;
+    background-color: rgb(145, 56, 56);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbar h1 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    font-size: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 15px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    background-color: #333;
+    padding: 15px;
+}
+
+        .grid-item {
+            background-color: #ddd;
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            box-shadow: 2px 2px 6px 0px rgb(255 2 2)
+        }
+
+        .grid-item img {
+            width: 300px;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #666;
+            margin-top: 8px;
+        }
+
+        .readme-btn {
+            background-color: #333;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            margin-top: 16px;
+            display: inline-block;
+        }
+
+        .readme-btn:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1><a href="dash.html">Kenko</a></h1>
+        <ul>
+            <li>
+                <a href="home.html">Workouts</a>
+            </li>
+            <li>
+                <a href="MealPlanner.html">Meal Planner</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="scrim/ChatBot.html">Health Bot</a>
+            </li>
+
+
+        </ul>
+
+
+
+    </div>
+    <div class="container">
+        <div class="grid-item">
+            <h2>Exercise 1</h2>
+            <img src="giphy.gif" alt="">
+            <p class="description">Running on the spot, also known as spot running or jogging in place, is an aerobic exercise that involves moving your legs as if you're running while staying in one place. It's often used as a warm-up or in agility drills</p>
+            <a href="#" class="readme-btn">Read More</a>
+        </div>
+        <div class="grid-item">
+            <h2>Exercise 2</h2>
+            <img src="giphy1.gif" alt="">
+            <p class="description">A single-leg squat, also known as a pistol squat, is a squat performed on one leg. It's an intermediate to advanced exercise that adds a balance and stability challenge to the traditional squat.</p>
+            <a href="#" class="readme-btn">Read More</a>
+        </div>
+        <div class="grid-item">
+            <h2>Exercise 3</h2>
+            <img src="giphy2.gif" alt="">
+            <p class="description">Squats with weights can be a compound exercise that adds resistance to a traditional squat. The resistance can help build muscle. Squats can also strengthen your glutes, hips, and quads </p>
+            <a href="#" class="readme-btn">Read More</a>
+        </div>
+        <div class="grid-item">
+            <h2>Exercise 4</h2>
+            <img src="giphy3.gif" alt="">
+            <p class="description">A tricep extension is an isolation exercise that strengthens the triceps muscles in
+                the upper arm</p>
+            <a href="#" class="readme-btn">Read More</a>
+        </div>
+        <div class="grid-item">
+            <h2>Exercise 5</h2>
+            <img src="giphy4.gif" alt="">
+            <p class="description">They're essentially the same as regular push-ups, except that you grip a dumbbell in
+                each hand instead of placing your hands flat on the floor.</p>
+            <a href="#" class="readme-btn">Read More</a>
+        </div>
+        <div class="grid-item">
+            <h2>Exercise 6</h2>
+            <img src="giphy5.gif" alt="">
+            <p class="description">An exercise that strengthens the muscles at the back of the thighs (hamstrings),
+                buttocks (gluteals), and lower back (erector spinae).</p>
+            <a href="#" class="readme-btn">Read More</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
